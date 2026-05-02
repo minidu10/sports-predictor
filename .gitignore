@@ -1,0 +1,29 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ML models (large binary files — regenerate with train scripts)
+*.pkl
+
+# Data — never commit raw or processed data to git
+data/
+backend/data/
+*.csv
+
+# Secrets
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+frontend/dist/
+
+# Logs
+*.log
+backend/data/retrain_log.json
